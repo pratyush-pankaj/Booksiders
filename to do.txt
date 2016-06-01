@@ -1,0 +1,20 @@
+	PRAGYA HTTP  PASWARD
+AMIT5 TALK
+ADVERTISERS
+
+
+POST AD
+validate email
+label :press enter to create new category tag..........check box
+forgot pwd
+add ISBN +
+add publication
+ad quality algo
+search page feature: if book is not found in that location search nearby location 
+
+ad id ki length/timestamp(month)
+
+phone-verification
+aj inside page
+
+hover on cross

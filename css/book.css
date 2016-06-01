@@ -1,0 +1,147 @@
+article{
+	background: #fff;
+	padding: 100px 0px 0px 0px;
+}
+
+#bookInfo{
+	margin-top: 20px;
+	/*border: 1px #f00 solid;*/
+	border-bottom: 2px #ccc solid;
+	padding: 10px 50px 10px 50px;
+	margin-bottom: 20px;
+}
+
+#bookCoverContainer{
+	float: left;
+	width: 200px;
+	height: 300px;
+	overflow: hidden;
+	/*border: 1px #0f0 solid;*/
+}
+
+.bookCover{
+	width: 200px;
+	height: 300px;
+}
+
+#bookInfoContainer{
+	float: left;
+	padding: 0px 5px 0px 5px;
+	/*border: 1px #00f solid;*/
+	margin-left: 50px;
+}
+
+#bookInfoContainer h1{
+	font-family: webRegular;
+	font-size: 30px;
+	/*padding-bottom: 10px;*/
+	padding: 0px;
+	margin: 0px;
+	color: #333;
+}
+
+#bookInfoContainer h2{
+	font-family: Sourcesans;
+	font-size: 18px;
+	color: #666;
+	padding: 0px;
+	margin: 0px;
+}
+
+.rating{
+	font-family: dosis;
+	font-size: 18px;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+
+#bookInfoContainer .rating-c{
+    left: 0;
+    width: 400px;
+    padding: 0px;
+	margin: 0px;
+    /*border:1px #f00 solid;*/
+}
+
+.bookDiscription{
+	font-family: opensans;
+	font-size: 18px;
+	color: #666;
+	border-top: 1px #ccc solid;
+	max-width: 600px;
+	margin-top: 10px;
+	padding: 5px;
+	padding-top: 10px;
+}
+
+#userAd{
+	/*border:1px #00f solid;*/
+	padding: 0px 130px 10px 130px;
+	margin-bottom: 20px;
+}
+
+#userAd h2{
+	font-family: Exo_Light;
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #333;
+}
+
+#adContainer{
+	/*border: 1px #f00 solid;*/
+	background: #ecf0f1;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.userPic{
+	width: 85px;
+	height: 90px;
+	float: left;
+}
+
+.userInfo{
+	float: left;
+	/*border: 1px #111 solid;*/
+	padding: 3px 10px 3px 70px;
+}
+
+.userName, .userAddress, .distance{
+	font-family: webRegular;
+	font-size: 18px;
+	color: #333;
+}
+
+.userAddress, .distance{
+	font-size: 16px;
+}
+
+.userPrice{
+	float: right;
+	/*border: 1px #0f0 solid;*/
+	padding: 25px 40px 20px 30px;
+}
+
+.userPrice .priceTag{
+	font-family: ubuntu;
+	font-size: 18px;
+	background: #A74AC7;
+	color: #fff;
+	padding: 10px 30px 10px 30px;
+	box-shadow: 0px 0px 5px #555
+}
+
+.condition{
+	float: right;
+	padding: 35px 0px 20px 20px;
+}
+
+.condition p{
+	font-family: dosis;
+	font-size: 16px;
+	color: #666;
+
+}

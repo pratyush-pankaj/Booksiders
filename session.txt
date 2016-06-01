@@ -1,0 +1,3 @@
+session_start();
+		if(isset($_SESSION['nID']))   
+		  { $uid=$_SESSION['nID'];}

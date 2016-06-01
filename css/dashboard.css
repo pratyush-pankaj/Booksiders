@@ -1,0 +1,349 @@
+article{
+	padding: 120px 0px 0px 0px;
+}
+
+.dashboardBody{
+	background: #ecf0f1 !important;
+
+}
+
+.mydashBoard{
+	text-align: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 15px;
+	font-family: Sourcesans;
+	font-size: 28px;
+	letter-spacing: 1px;
+	color: #666;
+	text-transform: uppercase;
+	/*border-bottom: 1px #ccc solid;*/
+}
+
+#dashbox{
+	margin: 0 auto;
+	max-width: 1100px;
+	padding: 0px;
+	/*border: 1px #000 solid;*/
+	height: 500px;
+}
+
+#dashboxLeft{
+	float: left;
+	width: 330px;
+	padding-top: 30px;
+	padding-bottom: 55px;
+	/*border: 1px #f00 solid;*/
+	/*background: #4C4646;*/
+	background: url(../images/userprofile-610c6af8ccfea78fb56f58bb888ad137.jpg) no-repeat;
+	background-size: cover;
+	box-shadow: 5px 5px 15px #111;
+}
+
+#dashboardContent{
+	float: right;
+	width: 700px;
+	margin-top: 10px;
+	/*padding-top: 20px;
+	padding-bottom: 20px;*/
+	/*border: 1px #f00 solid;*/
+}
+
+#dashboxRight{
+	padding: 0px;
+}
+
+#dashboxRight h2{
+	margin-top: 20px;
+	text-align: center;
+	color: #444;
+	font-family: Sourcesans;
+	font-size: 24px;
+}
+
+.bulbHolder{
+	width: 350px;
+	margin: 0 auto;
+}
+
+#profileTab{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#imageHolder{
+	width: 100px;
+	margin: 0 auto;
+}
+
+.yourProfile #imageHolder{
+	width: 150px;
+	margin: 0 auto;
+}
+
+.profilePic{
+	border-radius: 100px;
+	border: 4px #fff solid;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.profilePic:hover{
+	border-color: #A74AC7;
+}
+
+.yourProfile .profilePic{
+	border-color: #fff;
+}
+
+.yourProfile .profilePic:hover{
+	border-color: #fff;
+}
+
+.nameOfUser{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	font-family: Ubuntu;
+	font-size: 26px;
+}
+
+.dashTabs{
+	margin-top: 20px;
+	width: 100%;
+	padding: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
+	list-style: none;
+}
+
+.dashTabs li{
+	padding: 12px;
+	/*border: 1px #f00 solid; */
+	border-left: 8px transparent solid;
+	color: #fff;
+	font-family: Exo_Light;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.dashTabs li:hover{
+	border-left-color: #A74AC7;
+	/*background: #34282C;*/
+	background: rgba(236, 240, 241,1);
+	padding-left: 18px;
+	color: #A74AC7;
+}
+
+.dashTabs li.active{
+	border-left-color: #A74AC7 !important;
+	/*background: #34282C;*/
+	background: #ecf0f1 !important;
+	padding-left: 18px !important;
+	color: #A74AC7 !important;
+}
+
+#notificationBox{
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+#notificationBox h1{
+	text-align: center;
+	font-family: Ubuntu;
+	font-size: 24px;
+	color: #555;
+}
+
+.adList{
+	padding: 10px;
+	max-height: 380px;
+	overflow-y: scroll;
+}
+
+.notList li, .adList li{
+	/*border: 1px #000 solid;*/
+	border-bottom: 1px #ccc solid;
+	padding: 5px;
+	padding-left: 15px;
+	font-family: Dosis;
+	font-size: 20px;
+	background: url(../dashboard/images/envelope.png) no-repeat;
+	background-size: 20px 20px;
+	background-position: right;
+	cursor: pointer;
+	position: relative;
+}
+
+.notList li:hover, .adList li:hover{
+	text-decoration: underline;
+}
+
+.adList li{
+	background: none;
+}
+
+.editBox{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	/*height: 100%;*/
+	overflow: hidden;
+	/*border: 1px #f00 solid;*/
+	margin-top: 5px;
+	margin-right: 10px;
+}
+
+.editBox a{
+	display: inline-block;
+	padding-left: 30px;
+	margin-left: 30px;
+	background: url(../images/edit.png) no-repeat;
+	background-size: contain;
+	background-position: 0%;
+}
+
+.editBox a:last-child{
+	background: url(../images/delete.png) no-repeat;
+	background-size: contain;
+	background-position: 0%;
+}
+
+.settingList, .yourProfile{
+	padding: 10px;
+	list-style: none;
+	text-align: center;
+}
+
+.settingList{
+	margin-top: 20px;
+}
+
+.settingList li, .yourProfile li{
+	/*border-bottom: 1px #ccc solid;*/
+	margin-top: 10px;
+	padding-left: 15px;
+	position: relative;
+}
+
+.settingList li p, .yourProfile li p{
+	display: inline-block;
+	width: 100px;
+	font-family: Dosis;
+	font-size: 20px;	
+}
+
+.settingList li input:not([type="submit"]){
+	display: inline-block;
+	padding: 5px;
+	padding-left: 10px;
+	width: 250px;
+	border: 1px #999 solid;
+	border-radius: 5px;
+	font-family: Sourcesans;
+	font-size: 18px;
+	margin-left: 50px;
+	background: transparent;
+	color: #666;
+}
+
+.yourProfile li input:not([type="submit"]){
+	display: inline-block;
+	padding: 5px;
+	padding-left: 10px;
+	width: 250px;
+	border: 1px #999 solid;
+	border-radius: 5px;
+	font-family: Sourcesans;
+	font-size: 18px;
+	margin-left: 50px;
+	background: transparent;
+	color: #666;
+}
+
+.settingList li input:not([type="submit"]):focus, .yourProfile li input:not([type="submit"]):focus{
+	border-color: #A74AC7;
+	color: #A74AC7;
+}
+
+.makeChangeButton{
+	margin-top: 20px;
+	padding: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: Sourcesans;
+	font-size: 16px;
+	background: #A74AC7;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+#buttonHolder{
+	width: 150px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.fileUpload{
+	position:relative;
+	overflow:hidden;
+	cursor:pointer;
+}
+
+.btn-upload{
+	font-family: ubuntu;
+	font-size: 18px;
+	padding:10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background:#A74AC7;
+	color:#fff;
+}
+
+.fileUpload input.imgUp{
+	position:absolute;
+	top:0;
+	right:0;
+	margin:0;
+	padding:0;
+	font-size:20px;
+	cursor:pointer;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+
+.shop{
+	list-style: none;
+	text-align: center;
+}
+
+.shop li{
+	font-family: Ubuntu;
+	font-size: 20px;	
+	margin-top: 30px;
+}
+
+.shop .openShop{
+	border:none;
+	background: #A74AC7;
+	padding: 7px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: dosis;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.profileDiv{
+	display: block !important;
+}
+
+.profileDivHide{
+	display: none;
+}
+

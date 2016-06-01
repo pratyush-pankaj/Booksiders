@@ -1,0 +1,335 @@
+body{
+	/*background: url(../images/store4.jpg) no-repeat fixed !important;
+	background-size: 100% 100% !important;*/
+	background: #ecf0f1 !important;
+}
+
+/*.pageSell{
+	zoom: 1;
+	*zoom: 1;
+	max-width: 1100px;
+	margin: 0 auto;
+	position: relative;
+}*/
+
+article{
+	padding: 100px 0px 0px 0px;
+}
+
+#tips{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.sellFormTips{
+	background: rgba(255,255,255,1) !important;
+	border-radius: 0px !important;
+	/*border: 1px #bdc3c7 solid;*/
+	box-shadow: 0px 0px 2px #bdc3c7;
+}
+
+#sellForm{
+	margin-top: 15px;	
+}
+
+#form-left, #form-right{
+	border: 1px #95a5a6 solid;
+	float: left;
+	max-width: 480px;
+	padding: 25px 25px 25px 25px;
+	background: #fff;
+}
+
+#form-right{
+	float: right;
+}
+
+.form-centre{
+	margin: 2px auto;
+	width: 100%;
+	text-align: center;
+	position: relative;
+	padding-left: 5px;
+	padding-right: 5px;
+	min-height: 1px;
+	box-sizing: border-box;
+	/*border: 1px #f00 solid;*/
+}
+
+#form-left h2{
+	text-align: center;
+	font-family: Ubuntu,robotoLight;
+	font-size: 20px;
+	color: #111;
+	margin-bottom: 3px;
+}
+
+#form-left p, #form-right p{
+	text-align: center;
+	font-family: Sourcesans;
+	font-size: 16px;
+	color: #555;
+	margin-bottom: 20px;
+}
+
+#form-left p span{
+	color: #f00;
+	font-weight: bold;
+}
+
+.form-centre input:not([type="file"]){
+	background: #FAFAFA;
+	border: 1px #bdc3c7 solid;
+	margin: 4px 0px 2px 0px;
+	padding: 7px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: Sourcesans;
+	font-size: 16px;
+	color: #333;
+}
+
+.form-centre input:not([type="file"]):focus{
+	border: 1px #A74AC7 solid;
+}
+
+#picUploadDiv{
+	background: #FAFAFA;
+	border: 1px #bdc3c7 solid;
+	margin: 4px 0px 2px 0px;
+	padding: 7px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: Sourcesans;
+	font-size: 16px;
+	color: #333;
+}
+
+.picHolder{
+	float: left;
+	width: 150px;
+	height: 200px;
+	border: 1px #bdc3c7 solid;
+	overflow: hidden;
+}
+
+#uploadPreview{
+	width: 100%;
+	height: 100%;
+}
+
+.picUploadRule{
+	max-width: 250px;
+	/*border: 1px #0f0 solid;*/
+	float: right; 
+}
+
+.picUploadRule li{
+	text-align: left;
+	list-style: square;
+	margin: 5px 0px 5px 0px;
+}
+
+.fileUpload{
+	margin-top: 20px;
+	position:relative;
+	overflow:hidden;
+	cursor:pointer;
+	/*top: 200px;
+	left: 20%;*/
+}
+
+.btn-upload{
+	font-family: ubuntu;
+	font-size: 18px;
+	padding:10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background:#A74AC7;
+	color:#fff;
+}
+
+.fileUpload input.imgUp{
+	position:absolute;
+	top:0;
+	right:0;
+	margin:0;
+	padding:0;
+	font-size:20px;
+	cursor:pointer;
+	opacity:0;
+	filter: alpha(opacity=0);
+}
+
+#bookInfo{
+	display: none;
+}
+
+.addNewCategory{
+	margin-bottom: 5px !important;
+	margin-top: 5px;
+	position: relative !important;
+	background: #A74AC7!important;
+	border: none!important;
+	color: #fff!important;
+	padding: 7px!important;
+	font-family: dosis!important;
+	font-size: 16px!important;
+	cursor: pointer!important;
+}
+
+.selectedCategoryBox{
+	margin: 0px;
+	/*border: 1px #111 solid;*/
+}
+
+.selectedCatTab{
+	display: none;
+	width: 45% !important;
+	float: left!important;
+	padding: 5px!important;
+	background: #1abc9c!important;
+	border: none!important;
+	color: #fff!important;
+	font-family: Dosis!important;
+	font-size: 16px!important;
+	cursor: not-allowed!important;
+	box-sizing: none!important;
+}
+
+.go2,.go4{
+	float: right !important;
+}
+
+#discription{
+	background: #FAFAFA;
+	border: 1px #bdc3c7 solid;
+	margin: 4px 0px 2px 0px;
+	padding: 7px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: Sourcesans;
+	font-size: 16px;
+	color: #333;
+}
+
+.review{
+	background: #FAFAFA;
+	border: 1px #bdc3c7 solid;
+	margin: 4px 0px 2px 0px;
+	padding: 7px;
+	width: 100%;
+	height: 200px;
+	box-sizing: border-box;
+	font-family: Sourcesans;
+	font-size: 16px;
+	color: #333;
+	resize: none;
+}
+
+.rateYourBook{
+	text-align: left!important;
+	margin-top: 5px !important;
+	margin-bottom: 3px !important; 
+}
+
+#finalForm{
+	width: 100%;
+	margin-top: 30px;
+	padding: 10px;
+	box-sizing: border-box;
+	background: #fff;
+	border: 1px #95a5a6 solid;	
+}
+
+.acceptTerms{
+	float: left;
+}
+
+.acceptTerms p{
+	padding-top: 8px;
+	font-family: Sourcesans;
+	font-size: 16px;
+	color: #333;
+}
+
+.termsCheckBox{
+	margin-right: 10px;
+}
+
+.submitHolder{
+	float: right;
+}
+
+.submitAd{
+	background: #A74AC7;
+	border: none;
+	padding: 5px;
+	color: #fff;
+	font-family: robotoLight;
+	font-size: 16px;
+	padding: 8px 25px 8px 25px;
+}
+
+.aboutISBN{
+	text-align: left;
+	position: relative;
+	margin-bottom: 0px;
+	font-family: Sourcesans;
+	font-size: 16px;
+	color: #555;
+}
+
+.aboutISBN span{cursor: pointer;}
+
+.ISBNdiv{
+	display: none;
+	max-width: 280px;
+	padding: 10px;
+	background: #fff;
+	border: 1px #bdc3c7 solid;
+	box-shadow: 0px 0px 5px #95a5a6;
+	position: absolute;
+	top: -130px;
+	left: 130px;
+}
+
+.ISBNdiv h3{
+	margin-bottom: 10px;
+	font-family: ubuntu,robotoLight;
+	font-size: 18px;
+}
+
+.ISBNdiv img{
+	margin-bottom: 10px;
+	width: 100%;
+	height: 135px;
+}
+
+.ISBNdiv p{
+	margin-bottom: 0 !important;
+}
+
+.arrow_box:after, .arrow_box:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #fff;
+	border-width: 15px;
+	margin-top: -15px;
+}
+.arrow_box:before {
+	border-color: rgba(189, 195, 199, 0);
+	border-right-color: #bdc3c7;
+	border-width: 16px;
+	margin-top: -16px;
+}

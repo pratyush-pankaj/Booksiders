@@ -1,0 +1,82 @@
+html,body{width: 100%;height: 100%;}
+
+html,body,a,ul,h1,h2,h3,h4,h5,h6,p,img,ol,li{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline:0px;
+	font-size:100%;
+	vertical-align: bottom;
+}
+
+ul {list-style: none;}
+
+a{
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+body{
+	background: url(../images/Gray-plain-website-background.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+article{
+	padding: 80px 0px 0px 0px;
+}
+
+.clear{
+	clear: both;
+	height: 0px;
+	overflow: hidden;
+}
+
+.page{
+	zoom: 1;
+	*zoom: 1;
+	max-width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	/*border: 1px #fff solid;*/
+}
+
+.logoContainer{
+	/*border: 1px #fff solid;*/
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 150px;
+	background: #fff;
+	margin-bottom: 15px;
+}
+
+.page h2{
+	text-align: center;
+	font-family: Exo_Light;
+	font-size: 38px;
+	color: #fff;
+}
+
+.page h1{
+	text-align: center;
+	font-family: Exo_Light;
+	font-size: 78px;
+	color: #fff;
+}
+
+.page h3{
+	text-align: center;
+	font-family: Exo_Light;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 30px;
+}
+
+.page p{
+	font-family: Sourcesans;
+	font-size: 28px;
+	color: #fff;
+	text-align: center;
+	margin-top: 40px;
+}

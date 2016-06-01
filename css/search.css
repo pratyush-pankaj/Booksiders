@@ -1,0 +1,112 @@
+article{
+	background: #fff;
+	padding: 100px 0px 0px 0px;
+}
+
+
+#searchArea{
+	margin: 5px auto;
+	padding: 10px 50px 10px 50px;
+	background: #fff;
+	/*border: 1px #f00 solid;*/
+}
+
+#searchArea h1{
+	font-family: Sourcesans;
+	font-size: 22px;
+	color: #555;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 15px;
+}
+
+#resultRow{
+	/*border: 1px #111 solid;*/
+}
+
+.bookHolder{
+	float: left;
+	width: 250px;
+	height: 350px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	border: 2px #ccc solid;
+	position: relative;
+	overflow: hidden;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.bookHolder:hover{
+	border-color: #A74AC7;
+}
+
+.bookHolder:hover .bookCover{
+	padding-bottom: 20px;
+}
+
+.bookCover{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	padding: 10px;
+	width: 100%;
+	border-top: 2px #fff solid;
+	background: rgba(167, 74, 199,0.8);
+	transition: all 0.3s ease;
+}
+
+.bookCover p{
+	color: #fff;
+	margin-top: 5px;
+	font-family: Ubuntu;
+	font-size: 20px;
+}
+
+#filterBox{
+	width: 76%;
+	margin-left: 12%;
+	background: rgb(167,74,199);
+	padding: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	position: fixed;
+	bottom: -150px;
+	transition:all 0.5s ease;
+	border-bottom: none;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	box-shadow: 0px 0px 10px #666;
+}
+
+#filterCentre{
+	width: 85%;
+	padding: 5px;
+	margin: 0 auto;
+	/*border: 1px #111 solid;*/
+	font-family: Exo_Light;
+	font-size: 16px;
+	color: #fff;
+}
+
+#filterCentre div{
+	display: inline-block;
+}
+
+#filterCentre div p{
+	margin-right: 15px;
+}
+
+#filterCentre div input{
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 130px;
+	border-radius: 5px;
+	background: transparent;
+	border: 1px #fff solid;
+	padding: 5px;
+	color: #fff;
+	font-family: dosis;
+	font-size: 16px;
+}

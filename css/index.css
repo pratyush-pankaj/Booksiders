@@ -1,0 +1,237 @@
+
+
+
+.heading{
+	text-align: center;
+	font-family: Myriad;
+	font-size: 36px;
+	color: #333;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+#display {
+	min-width: 100%;
+	max-width: 100%;
+	clear: both;
+	position: relative;
+	top: 80px;
+	height: 670px;
+}
+
+
+#bigLogoPanel {
+	
+	width: 65%;
+	margin: 0 auto;
+	clear:both;
+	position: relative;
+	top: 50px;
+	padding-bottom: 10px;
+}
+
+.panelLogo{
+	width: 30%;
+	float: left;
+	opacity: 0.7;
+}
+
+.panelName {
+	float: left;
+	font-family: Abel;
+	font-size: 100px;
+	position: relative;
+	top: 50px;
+	left: 1%;
+	color: #666;
+}
+
+.panelCaption {
+	float: right;
+	font-family: dosis;
+	font-size: 34px;
+	color: #A74AC7;
+	position: relative;
+	top: 20px;
+	right: 50px;
+}
+
+.bigDisplay{width: 100%;}
+
+#display h1{
+	font-family: latoLight;
+	font-size: 44px;
+	text-align: center;
+	margin-top: 110px;
+	color: #666;
+}
+
+#display p{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#display p button{
+	border:none;
+	background: #A74AC7;
+	color: #fff;
+	width: 250px;
+	padding: 10px;
+	font-size: 20px;
+	font-family: Ubuntu;
+	cursor: pointer;
+}
+
+#display p button:hover{
+	background: #7D1B7E;
+}
+
+#city{
+	min-width: 100%;
+	max-width: 100%;
+	clear: both;
+	background: #ecf0f1;
+	margin-top: 30px;
+	height: 420px;
+}
+
+.city{
+	width: 25%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.city-name{
+	font-family: Sourcesans;
+	font-size: 28px;
+	text-align: center;
+	padding-top: 20px;
+	cursor: pointer;
+}
+
+.cityImg{text-align: center;}
+
+.cityImg img{
+	width: 200px;
+	height: 200px;
+	border:2px #ccc solid;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+
+
+#category{
+	min-width: 100%;
+	max-width: 100%;
+	clear: both;
+	margin-top: 70px;
+	height: 450px;
+}
+
+#category .heading{color: #555;margin-bottom: 20px;}
+
+.cats{
+	float: left;
+	width: 15%; /* 195px */
+	/*border:1px #111 solid;*/
+	margin-left: 4%;
+	padding-top: 50px;
+	transition:all 0.5s ease;
+	border-radius: 8px;
+	cursor: pointer;
+	position: relative;
+}
+
+.cats .svgImg{
+	text-align: center;
+}
+
+.cats .catTag{
+	font-family: Sourcesans;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	cursor: pointer;
+	color: #666
+}
+
+.svgClass{
+	transition:top 0.5s ease;
+	transition:fill 0.5s ease;
+	cursor:pointer;
+	top: 0px;
+	position: relative;
+}
+
+.svgClass{fill:#bdc3c7;}
+
+.catsSpan{
+	margin-left:20px;
+	position:relative;
+	top: 0px;
+	transition:all 0.5s ease;
+}
+
+.catsSpan:hover{
+	top:-30px;
+}
+
+.cats span:hover .svgClass{fill:#A74AC7;}
+
+.svgClass:hover{
+	fill:#A74AC7;
+}
+
+.catTag:hover{color: #A74AC7;}
+
+
+#adDiv{
+	max-width: 100%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 400px;
+}
+
+#adDiv-left{
+	float: left;
+	width: 40%;
+}
+
+#adDiv-right{
+	float: right;
+	width: 58%;
+}
+
+#adDiv .heading{
+	font-size: 28px;
+	color: #666;
+	margin-top: 60px;
+}
+
+.signUpButton{
+	width: 45%;
+	border:none;
+	background: #A74AC7;
+	padding: 10px;
+	color: #fff;
+	font-family: ubuntuRegular;
+	font-size: 18px;
+	margin-left: 26%;
+	transition: all 0.3s ease;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.signUpButton:hover{
+	background: #B048B5;
+}
+
+.adImgHolder{
+	overflow: hidden;
+	height: 380px;
+	border-bottom: 1px #ccc solid;
+}
+
+.adImgHolder img{width: 80%;height:auto;position: relative;left: 10%;top: 60px;box-shadow: 0px 0px 20px #888;}

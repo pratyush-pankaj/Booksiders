@@ -1,0 +1,84 @@
+@font-face {
+	font-family: opensans;
+	src: url(../fonts/Open_Sans/OpenSans-CondLight.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: dosis;
+    src: url(../fonts/Dosis/Dosis-Light.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: dosisRegular;
+    src: url(../fonts/Dosis/Dosis-Regular.ttf) format("truetype");
+}
+
+@font-face{
+	font-family:Abel;
+	src: url(../fonts/Abel/Abel-Regular.ttf) format("truetype");
+}
+
+@font-face{
+	font-family:Exo_Light;
+	src: url(../fonts/Exo_2/Exo2-Light.ttf) format("truetype");
+}
+
+@font-face{
+	font-family:Exo_Thin;
+	src: url(../fonts/Exo_2/Exo2-Thin.ttf) format("truetype");
+}
+
+@font-face{
+	font-family:Poiret;
+	src: url(../fonts/Poiret_One/PoiretOne.ttf) format("truetype");
+}
+
+@font-face{
+	font-family:Sourcesans;
+	src: url(../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf) format("truetype");
+}
+
+@font-face{
+	font-family:Ubuntu;
+	src: url(../fonts/Ubuntu/Ubuntu-Light.ttf) format("truetype");
+}
+
+@font-face{
+	font-family:UbuntuRegular;
+	src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf) format("truetype");
+}
+
+@font-face {
+ font-family: latoLight;
+ src: url(../fonts/Lato/Lato-Light.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: latoRegular;
+	src: url(../fonts/Lato/Lato-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Myriad;
+	src: url(../fonts/Myriad/MyriadPro-Light.otf) format("opentype");
+}
+
+@font-face {
+	font-family: robotoLight;
+	src: url(../fonts/Roboto/Roboto-Light.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: robotoRegular;
+	src: url(../fonts/Roboto/Roboto-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: webRegular;
+	src: url(../fonts/Titillium_Web/TitilliumWeb-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: webLight;
+	src: url(../fonts/Titillium_Web/TitilliumWeb-Light.ttf) format("truetype");
+}

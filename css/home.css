@@ -1,0 +1,445 @@
+article{
+	background: #fff;
+	padding: 100px 0px 0px 0px;
+}
+
+#display{
+	width: 100%;
+	margin-bottom: 180px;
+}
+
+#topPanel{
+	/*border:1px #f00 solid;*/
+	padding: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+
+#topLeft{
+	float: left;
+	width: 430px;
+	/*border: 1px #00f solid;*/
+	padding: 10px;
+	padding-bottom: 20px;
+	background: url(../images/2fda86e47f3ceb145b340ba3dda43a8c79.png);
+}
+
+#logoSpace{
+	width: 220px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#topLogo{
+
+}
+
+#topRight{
+	float: right;
+	width: 500px;
+	/*border: 1px #00f solid;*/
+	padding: 2px 20px 0px 20px;	
+}
+
+#bigLogoPanel{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.bigDisplayLogo{
+	width: 100%;
+}
+
+#topLeft h1{
+	font-family: Exo_Light;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 10px;
+	color: #333;
+}
+
+#topLeft p{
+	font-family: Dosis;
+	font-size: 34px;
+	text-align: center;
+	margin-top: 15px;
+	color: #666;
+}
+
+.topButtonHolder{
+	width: 150px;
+	margin: 15px auto;
+}
+
+#topRatedBooks{
+	padding: 0px 0px 20px 0px;
+	/*border: 1px #f00 solid;*/
+	font-family: latoRegular;
+	color: #726E6D;
+}
+
+#topRatedBooks p{
+	text-align: center;
+	padding: 5px;
+	font-size: 20px;
+	margin-bottom: 15px;
+	border-bottom: 2px #726E6D solid;
+}
+
+.topBooks{
+	width: 140px;
+	height: 200px;
+	/*border: 1px #0f0 solid;*/
+	float: left;
+	margin-left: 20px;
+}
+
+.showAllBooks{
+	background: rgba(231, 76, 60,1.0);
+	text-align: center;
+	color: #fff;
+	padding: 8px 0px 8px 0px;
+	font-family: Sourcesans;
+	font-size: 17px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.showAllBooks:hover{
+	background: rgba(192, 57, 43,1.0);
+}
+
+#shareLocation{
+	padding: 20px 0px 20px 0px;
+	/*border: 1px #f00 solid;*/
+	font-family: latoRegular;
+	color: #726E6D;
+}
+
+#shareLocation p{
+	padding: 5px;
+	font-size: 20px;
+}
+
+.locationForm{
+	position: relative;
+}
+
+.loadEffectLocation{
+	position: absolute;
+	top: 0px;
+	right: 50px;
+}
+
+
+#display button{
+	position: relative;
+	margin-top: 20px;
+}
+
+.centre2{
+	*zoom: 1;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+#rowTwo{
+	padding-bottom: 25px;
+	border-top: 1px #ccc solid;
+	 /*border: 1px #f00 solid;*/
+	 position: relative;
+}
+
+#rowTwo .rowTwo{
+	float: left;
+	/*border: 1px #111 solid;*/
+	width: 330px;
+	/*height: 200px;*/
+	margin-top: 50px;
+	margin-left: 25px;
+}
+
+#rowTwo .rowTwo h4{
+	text-align: center;
+	font-family: Exo_Light;
+	font-size: 28px;
+	color: #444;
+	margin-top: 150px; 
+}
+
+#rowTwo .rowTwo p{
+	text-align: center;
+	font-family: dosis;
+	font-size: 24px;
+	color: #888;
+	margin-top: 5px;
+	padding-bottom: 10px;
+}
+
+#rowTwo .rowTwo button{
+	margin-top: 15px;
+	margin-left: 22%;
+	background: none;
+	border: 1px #666 solid;
+	border-radius: 3px;
+	color: #555;
+	font-family: latoLight;
+	font-size: 16px;
+	padding: 8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	transition: all 0.3s ease-in-out;
+}
+
+#rowTwo .rowTwo button:hover{
+	background: #A74AC7;
+	border-color: #A74AC7;
+	color: #fff;
+}
+
+#buyAndSell{
+	background: url(../images/1428244478_Boss-3-128.png) no-repeat;
+	background-position:50% 0%; 
+}
+
+#bookStoreBlock{
+	background: url(../images/1428244426_Shop-128.png) no-repeat;
+	background-position:50% 0%; 
+}
+
+#insideBlock{
+	background: url(../images/1428244462_Graph-Magnifier-128.png) no-repeat;
+	background-position:50% 0%; 
+}
+
+#publishRow{
+	margin-top: 50px;
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: url(../images/publishRowBack.jpg) no-repeat;
+	background-size: cover;
+}
+
+#publishRow .centre{
+	max-width: 800px;
+}
+
+#publishRow h2{
+	text-align: center;
+	font-family: webRegular;
+	font-size: 46px;
+	margin-bottom: 40px;
+	color: #fff;
+}
+
+#publishRow p{
+	text-align: center;;
+	font-family: Myriad;
+	font-size: 22px;
+	color: #fff;
+}
+
+.publishButton{
+	width: 190px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#publishRow button{
+	border:none;
+	background: #fff;
+	border-radius: 1px;
+	font-family: latoLight;
+	font-size: 20px;
+	color: #777;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#investRow{
+	border-top: 1px #ccc solid;
+	margin-top: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.investInfo, .investLogo{
+	float: left;
+	width: 500px;
+	height: 200px;
+	margin-left: 30px;
+	/*border: 1px #111 solid;*/
+}
+
+.investLogo{
+	background: url(../images/1428244385_Money-Increase-128.png) no-repeat;
+	background-position: 50%;
+}
+
+#investInfo h3{
+	padding: 10px;
+	padding-left: 20px;
+	font-family: robotoRegular;
+	font-size: 28px;
+	color: #666;
+}
+
+#investInfo p{
+	padding: 10px;
+	padding-top: 5px;
+	padding-left: 20px;
+	font-family: robotoLight;
+	font-size: 18px;
+	color: #666;
+}
+
+#investInfo button{
+	margin-top: 10px;
+	margin-left: 20px;
+	background: none;
+	border: 1px #666 solid;
+	border-radius: 3px;
+	color: #555;
+	font-family: latoLight;
+	font-size: 16px;
+	padding: 8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	transition: all 0.3s ease-in-out;
+}
+
+#investInfo button:hover{
+	background: #A74AC7;
+	border-color: #A74AC7;
+	color: #fff;
+}
+
+#selectCatDiv{
+	width: 100%;
+	margin-top: 50px;
+	padding-top: 25px;
+	padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+/*adwadw*/
+
+#catSell{
+	min-width: 800px;
+	width: 85%;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+	margin-top: 30px;
+	height: 500px;
+}
+
+#cityCat{
+	float: left;
+	width: 69%;
+}
+
+
+
+
+
+#pyrobookDiv{
+	float: right;
+	width: 29%;
+	margin-top: 20px;
+	height: 85%;
+	background: url(../images/logoColor.svg) no-repeat;
+	background-size: 50%;
+	background-position: 50% 15%;
+	background-color: #ecf0f1;
+	border-radius: 5px;
+}
+
+#pyrobookDiv h1{
+	font-family: Abel;
+	font-size: 50px;
+	text-align: center;
+	color: #7f8c8d;
+	position: relative;
+	top: 50%;
+	letter-spacing: 2px; 
+}
+
+#pyrobookDiv p{
+	font-family: dosis;
+	font-size: 24px;
+	color: #A74AC7;
+	position: relative;
+	top: 47%;
+	text-align: right;
+	padding-right: 50px;
+}
+
+#pyrobookDiv button{
+	position: relative;
+	top: 50%;
+	margin-top: 30px;
+	border: none;
+	background: #A74AC7;
+	color: #fff;
+	font-family: ubuntu;
+	font-size: 24px;
+	padding: 5px;
+	padding-left: 27px;
+	padding-right: 27px;
+	left: 20%;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+#pyrobookDiv button:hover{
+	background: #6A287E
+}
+
+#allContainer{
+	/*border: 1px #f00 solid;*/
+	margin-top: 20px;
+	padding: 10px 50px 10px 50px;
+	font-family: ubuntu;
+	font-size: 20px;
+	color: #555;
+}
+
+.oneBook{
+	margin-top: 10px;
+	/*border: 1px #f00 solid;*/
+	border-bottom: 1px #ccc solid;
+	padding: 5px 50px 10px 50px;
+}
+
+.oneBook img{
+	float: left;
+	width: 60px;
+	height: 80px;
+	border: 1px #ccc solid;
+}
+
+.oneDesc{
+	float: left;
+	padding: 5px 5px 5px 50px;
+}
+
+.oneDesc p:first-child{
+	font-weight: bold;
+}
+
+.oneDesc .lowFont{
+	font-family: dosis;
+	font-size: 17px;
+}
+
+

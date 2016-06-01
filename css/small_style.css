@@ -1,0 +1,235 @@
+.page{
+	max-width: 500px;
+}
+
+
+
+.centre{
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.taskNav li.myAccount{
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+.taskNav li ul{
+	visibility: hidden;
+}
+
+#menu{display: none;}
+.headSearch{display:none;}
+
+.menuDrop{
+	display: block;
+	float: right;
+	padding: 15px;
+	font-size: 18px;
+	font-family: UbuntuRegular;
+	cursor: pointer;
+	background: url(../images/menuLogo.png) no-repeat;
+	background-size: 80% 30%;
+	background-position: 0% 50%;
+	text-indent: -9999px;
+}
+
+#navDrop{
+	display: none;
+	font-family: Ubuntu;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	background: rgba(229, 228, 226,1);
+	left:0px;
+	top: 53px;
+}
+
+#navDrop li{
+	padding: 15px;
+}
+
+#navDrop li:hover{
+	background: #666;
+	color: #fff;
+}
+
+#bigLogoPanel{width: 95%;}
+
+#display ol {
+	width: 95%;
+	padding-left: 0px;
+	list-style: none;
+	text-align: center;
+	margin-top: 40px;
+}
+
+#display ol li{margin-top: 20px;}
+
+#display ul li{
+	width: 50%;
+}
+
+#city{background: none;}
+
+.city{
+	width: 100%;
+	float: none;
+}
+
+#tips{display: none;}
+
+#topLeft{
+	width: 350px;
+	margin: 0 auto;
+}
+
+#topRight{
+	float: right;
+	width: 350px;
+	/*border: 1px #00f solid;*/
+	padding: 20px 20px 0px 20px;	
+}
+
+#pac-input{
+	left: 10px !important;
+	width: 270px !important;
+}
+
+.loadEffectLocation{
+	right: 0px;
+}
+
+.investInfo, .investLogo{
+	float: left;
+	width: 300px;
+	height: 150px;
+	margin-left: 30px;
+	/*border: 1px #111 solid;*/
+}
+
+.investInfo{height: 300px;}
+
+#topIsbn, #mandatory, #advanced, #final, #adForm{
+	max-width: 410px;
+}
+
+.closeNotification{
+	bottom: 0px;
+	right: 5px;
+}
+
+.topNotification{
+	font-size: 16px;
+}
+
+.rating-c{
+    width: 350px !important;
+    margin: 0 !important;
+}
+
+.rating-c .br-widget a {
+    
+    width: 30px !important;
+    height: 30px !important;
+ 
+}
+
+#categoryBox ul{
+	width: auto;
+	margin: 0 auto;
+	font-family: robotoLight;
+	font-size: 16px;
+	text-align: center;
+	margin-top: 1px; 
+	list-style: inside circle;	
+}
+
+#categoryBox ul li{
+	width: auto;
+	display: block;
+	padding: 2px;
+	color: #fff;
+	position: relative;
+	left: 0px;
+	transition: all 0.3s ease-in;
+	cursor: pointer;
+	/*border-bottom: 1px #ecf0f1 solid;*/
+}
+
+#categoryBox ul li:hover{
+	color: #ecf0f1;
+	left: 7px;
+	list-style: inside disc;
+}
+
+#bookInfoContainer{
+	float: right;
+}
+
+#userAd{
+	/*border:1px #00f solid;*/
+	padding: 0px 20px 10px 20px;
+	margin-bottom: 20px;
+}
+
+#dashboardContent{
+	float: right;
+	width: auto;
+	max-width: 500px;
+}
+
+.socialFooter ul li{
+	padding: 15px;
+}
+
+#searchBar{
+	width: 350px;
+	left: 5px;
+	display: block;
+}
+
+.bookHolder{
+	margin: 10px;
+}
+
+.oneDesc{
+	float: left;
+	
+	padding: 5px 5px 5px 5px; 
+}
+
+.facebookButton{
+	background: url(../images/facebook-login.png) no-repeat;
+	background-size: contain;
+	background-position: 5px 0px;
+	background-color: #2980b9;
+	border: 2px #2980b9 solid;
+}
+
+.g-recaptcha{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#selectionLeft{
+	
+}
+
+#selectionRight{
+	float: left;
+	/*border: 1px #00f solid;*/
+	border-left: 1px #ccc solid; 
+	max-width: 500px;
+	padding: 15px 0px 15px 15px;
+}
+
+#form-right{
+	float: left;
+	max-width: 480px;
+}
+
+#form-right .rating-c .br-widget a{
+	width: 30px !important;
+    height: 30px !important;
+}

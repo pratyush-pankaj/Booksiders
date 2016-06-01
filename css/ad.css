@@ -1,0 +1,162 @@
+article{
+	background: #fff;
+	padding: 100px 0px 0px 0px;
+}
+
+#adSection{
+	/*border: 1px #f00 solid;*/
+	margin-top: 20px;
+	padding: 10px 20px 10px 20px;
+}
+
+#sectionLeft{
+	float: left;
+	/*border: 1px #00f solid;*/
+	max-width: 550px;	
+}
+
+#rightOfImage{
+	float: left;
+}
+
+#sectionLeft h1{
+	font-family: Exo_Light;
+	font-size: 24px;
+	color: #555;
+	margin-bottom: 5px;
+}
+
+#sectionLeft h2{
+	font-family: Sourcesans;
+	font-size: 18px;
+	color: #666;
+	margin-bottom: 5px;
+}
+
+.lined{
+	clear: both;
+	height: 10px;
+	border-top: 1px #ccc solid;
+}
+
+#sectionLeft img{
+	float: left;
+	width: 180px;
+	height: 250px;
+	margin-right: 25px;
+}
+
+#sectionLeft p{
+	font-family: Myriad;
+	font-size: 18px;
+	padding: 8px 5px 8px 5px;
+	color: #444;
+}
+
+.rating-c{
+	left: 0px !important;
+	width: auto !important;
+}
+
+.rating-c .br-widget a{
+	width: 30px !important;
+	height: 30px !important;
+	line-height: 1.8 !important;
+}
+
+.bordered{
+	font-weight: bold;
+}
+
+#selectionRight{
+	float: right;
+	/*border: 1px #00f solid;*/
+	border-left: 1px #ccc solid; 
+	max-width: 520px;
+	padding: 15px 0px 15px 15px;
+}
+
+#selectionRight p{
+	font-family: Exo_Light;
+	font-size: 18px;
+	color: #444;
+	padding: 5px 2px 5px 35px;
+	margin-bottom: 15px;
+	/*border: 1px #f00 solid;*/
+	min-height: 25px;
+}
+
+.userName{
+	background: url(../images/myaccount-grey-icon.png) no-repeat;
+	background-size: 30px 30px; 
+}
+
+.phone{
+	background: url(../images/phone-grey.png) no-repeat;
+	background-size: 30px 30px; 
+}
+
+.landmark{
+	background: url(../images/pin.png) no-repeat;
+	background-size: 30px 30px; 
+}
+
+.address{
+	background: url(../images/world-grey.png) no-repeat;
+	background-size: 30px 30px; 
+}
+
+h5{
+	font-family: dosis;
+	font-size: 16px;
+	color: #666;
+	text-align: center;
+	padding-top: 12px !important;
+}
+
+#selectionRight button{
+	margin-top: 15px;
+	font-family: Ubuntu;
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+	border: none;
+	background: #DC381F;
+	color: #fff;
+	padding: 7px 0px 7px 0px;
+	transition: all 0.3s ease;
+}
+
+#selectionRight button:hover{
+	background: #F62217;
+}
+
+#userDesc{
+	/*border: 1px #f00 solid;*/
+	border-top: 1px #ccc solid;
+	margin-top: 20px;
+	padding: 0px 80px 20px 80px; 
+}
+
+#userDesc h6{
+	font-family: Abel;
+	font-size: 22px;
+	color: #555;
+	float: left;
+	padding-top: 10px;
+	padding-right: 25px;
+}
+
+#userDesc p{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: left;
+	max-width: 600px;
+	font-family: dosis;
+	font-size: 18px;
+	color: #333;
+	border-left: 1px #ccc solid;
+}
+
+

@@ -1,0 +1,122 @@
+#footer{
+	max-width: 100%;
+	margin-top: 50px;
+	/*background: #E5E4E2;*/
+	/*border-top: 2px #A74AC7 solid;*/
+	padding-bottom: 20px;
+	background: #fff;
+}
+
+.footerHeading{
+	font-family: webRegular;
+	font-size: 40px;
+	font-weight: 100;
+	color:#fff;
+	background: #A74AC7;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.footerSocial{
+	background: #E5E4E2;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.socialFooter{
+	
+}
+
+.socialFooter ul{
+	text-align: center;
+}
+
+.socialFooter ul li{
+	display: inline-block;
+	*display: inline;
+	padding: 25px;
+	/*border: 1px #fff solid;*/
+	margin-left: 50px;
+	cursor: pointer;
+}
+
+.facebook{
+	background: url(../images/1439664259_facebook_circle_color.png) no-repeat;
+	background-size: contain;
+}
+
+.twitter{
+	background: url(../images/1439664272_twitter_circle_color.png) no-repeat;
+	background-size: contain;
+}
+
+.linkedin{
+	background: url(../images/1439664281_linkedin_circle_color.png) no-repeat;
+	background-size: contain;
+}
+
+.googleplus{
+	background: url(../images/1439664308_google_circle_color.png) no-repeat;
+	background-size: contain;
+}
+
+#footer .centre{
+	width: 60%;
+}
+
+#footer form input:not([type="submit"]){
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 30%;
+	height: 30px;
+	padding-left: 10px;
+	font-family: dosis;
+	font-size: 18px;
+	border: none;
+	border-bottom:2px #E5E4E2 solid;
+	position: relative;
+	left: 22%;
+}
+
+#footer form input[type="submit"]{
+	width: 25%;
+	background: #E5E4E2;
+	color: #666;
+	padding: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	position: relative;
+	left: 22%;
+	border: none;
+}
+
+
+#footer .footerTabs{
+	text-align: center;
+	font-family: robotoRegular;
+	font-size: 18px;
+	font-weight: 200px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+#footer .footerTabs li{
+	display: inline-block;
+	*display: inline;
+	padding: 10px;
+	margin-left: 15px;
+	color: #555;
+	border-bottom: 2px #fff solid;	
+}
+
+#footer .footerTabs li:hover{border-bottom: 2px #555 solid;}
+
+#footer p{
+	text-align: center;
+	font-family: webLight;
+	font-size: 18px;
+}
